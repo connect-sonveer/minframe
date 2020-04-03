@@ -1,0 +1,9 @@
+{
+    "autoload" : {
+        "psr-4" : {
+            "MinFrame\\Core\\" : "core/",
+            "MinFrame\\Controllers\\" : "app/controllers/",
+            "MinFrame\\Models\\" : "app/models/"
+        }
+    }
+}
