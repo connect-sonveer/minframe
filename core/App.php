@@ -12,7 +12,7 @@ class App
         static::$registry[$key] = $value;
     }
 
-    public function get($key)
+    public static function get($key)
     {
         return static::$registry[$key];
     }

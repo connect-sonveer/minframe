@@ -2,9 +2,9 @@
 
 return [
     'database' => [
-        'name' => 'test',
+        'name' => 'min_frame',
         'username' => 'root',
-        'password' => '57336212',
+        'password' => 'Golu@23032011',
         'connection' => 'mysql:host=127.0.0.1',
         'options' => [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

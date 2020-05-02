@@ -12,7 +12,7 @@ class Request
             '/',trim(
             parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'
             )
-        )[2];
+        )[3];
     }
 
     public static function method()
